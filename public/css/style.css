@@ -1,0 +1,20 @@
+.bg-light {
+    background-color: #02aadd!important;
+    color: white;
+    margin-bottom: 17px;
+}
+h1{
+  color: black;
+}
+.sidebar-bg{
+  background: #4caf50;
+  color: white;
+}
+.padding-top-50{
+  padding-top: 20px;
+}
+.footer-bottom{
+  padding: 20px;
+  margin-top: 20px;
+  background: #02aadd;
+}
