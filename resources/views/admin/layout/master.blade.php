@@ -187,7 +187,15 @@
               </ul>
             </div>
           </li>
-
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#general-pages" aria-expanded="false" aria-controls="general-pages"> <img class="menu-icon" src="{{asset('images/menu_icons/08.png')}}" alt="menu icon"> <span class="menu-title">Manage Category</span><i class="menu-arrow"></i></a>
+            <div class="collapse" id="general-pages">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="{{ route('admin.product.create') }}">Add Category</a></li>
+                <li class="nav-item"> <a class="nav-link" href="{{ route('category.index') }}">Manage Category</a></li>
+              </ul>
+            </div>
+          </li>
         </ul>
       </nav>
       <!-- partial -->

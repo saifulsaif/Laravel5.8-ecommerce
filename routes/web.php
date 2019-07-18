@@ -23,6 +23,9 @@ Route::group(['prefix' => 'admin'],function(){
   Route::get('/products','AdminPagesController@product_manage')->name('admin.product.manage');
   Route::post('/product/create','AdminPagesController@product_store')->name('admin.product.store');
   Route::post('/product/update/{id}','AdminPagesController@product_update')->name('admin.product.update');
+
+// Category here
+  Route::get('/category','CategoryController@index')->name('category.index');
 });
 
 Auth::routes();
